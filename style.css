@@ -1,0 +1,9 @@
+/* Product gallery thumbnail hover effect */
+.gallery-thumb {
+  transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+}
+
+.gallery-thumb:hover {
+  transform: translateY(-1px) scale(1.005);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.06);
+}
